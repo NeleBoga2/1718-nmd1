@@ -1,12 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="././css/style.css">
+</head>
+
+<body>
+
+<button class="tablink" onclick="openPage('CV', this, 'lightgrey')">CV</button>
+<button class="tablink" onclick="openPage('GDM', this, 'lightgrey')" id="defaultOpen">GDM</button>
+<button class="tablink" onclick="openPage('PORT', this, 'lightgrey')">PORTFOLIO</button>
+
+<div id="CV" class="tabcontent">
+  <h3>NELE BOGAERTS</h3>
+  <img src="images/Hipster.jpg" alt="Nele" style="width:25%">
+  <p>CURRICULUM VITAE.</p>
+  <h1>CURRICULUM VITAE    </h1>
+
+<O><h2>PERSOONLIJKE GEGEVENS</h2> <br>
+<ul>NAAM: NELE BOGAERTS <br>
+ADRES: ARTHUR PUESSTRAAT 67B <br>
+1502 LEMBEEK<br>
+GSM-NUMMER: 0487588038<br>
+E-MAIL:	nelebogaerts@gmail.com<br>
+BURGERLIJKE STAAT: ONGEHUWD<br>
+GEBOORTEPLAATS:	HALLE<br>
+RIJKSREGISTERNUMMER: 98.12.30-326.43<br>
+GESLACHT: VROUW<br>
+OPLEIDING: DIPLOMA SECUNDAIR ONDERWIJS - WETENSCHAPPEN WISKUNDE  (BEHAALD OP 30-06-2016)<br>
+GRAFISCHE EN DIGITALE MEDIA (IN OPLEIDING)</ul><br>
+    <BR>
+    <br>
+<h2>WERKERVARING</h2><br>
+
+<ul> CREW FLOWTRACK<br>
+AVONTURENPARCOURS SVS DOMEIN VAN HUIZINGEN<br>
+SOCIAL MEDIA MANAGER AND GRAPHIC DESIGNER BY MUSIC CONNECTS <BR>
+SPORTDAGBEGELEIDING WAKASA EVENTS<br>
+BARVROUW BEACH DOMEIN VAN HUIZINGEN <bar></bar>
+SERVEERSTER RAMSES HALLE<br>
+WIELS MUSEUM BRUSSEL<br>
+MONITOR SPEELPLEIN JOEPIE HALLE</ul><br>
+<br>
+
+<h2>TALEN</h2>
+1. NEDERLANDS
+<ol>SPREKEN: ZEER GOED <BR>
+LEZEN: ZEER GOED<br>
+SCHRIJVEN: ZEER GOED</ol><br>
+
+2. FRANS
+<ol> SPREKEN: ZEER GOED <O>
+    LEZEN: GOED <BR>
+    SCHRIJVEN: ZEER GOED 
+</ol></br>
+
+3. ENGELS
+<ol> SPREKEN: ZEER GOED <BR>
+    LEZEN: GOED <BR>
+        SCHRIJVEN/ GOED <br>
+</ol>
+<br>
+<h2>ACTIVITEITEN</h2><br>
+<ul>GITAAR POPACADEMIX HALLE<br>
+ARCHITECTURAAL SCHETSEN SINT-LUCAS GENT<br>
+VRIJETIJDS ZWEMMEN <br>
+GROTE CULTURELE INTERESSE<br>
+</ul></p>
+
+<h2>INTERESSE EN AANVULLENDE INFORMATIE</h2>
+<p><a href="http://bogaertsnele.tumblr.com/" target="_blank">cultuurblog</a></p>
+<p> "stuur mij een"
+<a href="mailto:nelebogaerts@gmail.com">e-mail</a> </p>
+</div>
+
+<div id="GDM" class="tabcontent">
+    <h3>NELE BOGAERTS</h3>
+    <img src="images/Hipster.jpg" alt="Nele" style="width:25%">
+  <p>GRAFISCHE EN DIGITALE MEDIA</p> 
+
+  <p>Een grafisch oog moet u hebben, maar de programma’s leken voor mij een onbegonnen doolhof.<br>
+       Net daarom koos ik voor deze studie die mij stap voor stap het mysterie zal helpen ontrafelen en mij steeds dichter bij mijn doel zal brengen: grafisch ontwerper worden.  </p> <bR>
+        <bR>
+        <p> Het is me nog niet helemaal duidleijk wat ik na deze bachelor-opleiding wil doen. <br>
+            Het studentenleven bevalt me enorm en ik leer snel én graag bij. Daarom denk ik dat de kans groot is dat ik iets zal bijstuderen. <bR>
+            Mezelf kennende kan dat gaan van cursussen barista tot een master op sint-lucas of eventmanagement in Antwerpen.<bR>
+            Ik heb nog geen pad uitgestippeld en daar wil ik mij momenteel ook niet mee bezighouden. <br>
+            Het mysterie moet nog ontrafeld worden en daar geniet ik van.
+        </p>
+</div>
+
+<div id="PORT" class="tabcontent">
+    <h3>NELE BOGAERTS</h3>
+    <img src="images/Hipster.jpg" alt="Nele" style="width:25%">
+  <p>PORTFOLIO</p>
+
+
 </head>
 <body>
-    
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
+  <button class="btn" onclick="filterSelection('logo')"> LOGO</button>
+  <button class="btn" onclick="filterSelection('sticker')"> STICKER</button>
+  <button class="btn" onclick="filterSelection('druk')"> DRUKWERK</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column logo">
+    <div class="content">
+        <img src="images/PB.jpg" alt="logo partnes in benefits" style="width:100%">
+           <h4>PARTNERS IN BENEFITS</h4>
+    </div>
+  </div>
+
+  <div class="column logo">
+    <div class="content">        
+        <img src="images/toneel.jpg" alt="logo toneeltijlternat" style="width:100%">
+      <h4>TONEEL TIJL TERNAT</h4>
+    </div>
+  </div>
+
+  <div class="column logo">
+    <div class="content">
+        <img src="images/logonele-02.jpg" alt="logo partnes in benefits" style="width:100%">
+      <h4>INTRODUCTIE VORMGEVING</h4>
+    </div>
+  </div>
+ 
+  <div class="column sticker">
+    <div class="content">
+        <img src="images/woensel.jpg" alt="Sticker voor Woensel" style="width:100%">
+      <h4>WOENSEL</h4>
+    </div>
+  </div>
+
+  <div class="column sticker">
+    <div class="content">
+        <img src="images/olifant-01.jpg" alt="Stilering van een olifant" style="width:100%">
+      <h4>OLIFANT</h4>
+    </div>
+  </div>
+
+
+  <div class="column druk">
+    <div class="content">
+        <img src="images/poster.jpg" alt="Affiche CV" style="width:100%">
+      <h4>CURRICULUM VITAE</h4>
+    </div>
+  </div>
+
+  <div class="column druk">
+    <div class="content">
+        <img src="images/NMD1.jpg" alt="Moodboard New Media Design" style="width:100%">
+        <img src="images/NMD2.jpg" alt="Moodboard New Media Design" style="width:100%">
+        <img src="images/NMD3.jpg" alt="Moodboard New Media Design" style="width:100%">
+      <h4>NEW MEDIA DESIGN</h4>
+    </div>
+  </div>
+
+  <div class="column druk">
+    <div class="content">
+        <img src="images/interieur_poster 3.jpg" alt="Interieursbeurs poster" style="width:100%">
+      <h4>Interieursbeurs</h4>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
 </body>
 </html>
+
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
